@@ -1,5 +1,5 @@
-
-img.edu, img.bgimg {
+img.edu, 
+img.bgimg {
   opacity: 0.3;
   width: 50%;
   position: relative;
@@ -12,7 +12,8 @@ img.bgimg {
 }
 
 @media (max-width: 992px) {
-  img.edu, img.bgimg{
+  img.edu, 
+  img.bgimg{
     display: none;
   }
 }
@@ -37,18 +38,22 @@ img.skillIcon:hover {
 }
 
 img.igImg {
-  /* padding: 10px; */
   width: 100%;
   margin-bottom: 10%;
-  border: 1px #999 solid;
-  border-radius: 50px;
-  box-shadow: 1px 1px 10px gray;
+  border: 1px #e1e1e1 solid;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+}
+
+img.igImg:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
 
 .content {
   overflow: hidden;
   display: -webkit-box;
-  -webkit-line-clamp: 2;
+  -webkit-line-clamp: 1;
   -webkit-box-orient: vertical;
   white-space: normal;
 }
